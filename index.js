@@ -27,7 +27,9 @@ app.get('/', (req, res) => {
     res.render('user', { users });
 
 })
-
+app.get('/about', (req, res) => {
+    res.render('about');
+})
 app.listen(PORT, () => {
     console.log('Server Running on', PORT);
 })
