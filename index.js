@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
 
-    res.render('user');
+    res.render('user', { name: 'Davi', phone: '(48) 99999999' });
 
 })
 
