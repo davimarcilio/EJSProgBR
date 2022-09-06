@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <%- include('partials/navbar.ejs') %>
+    <%- include('../partials/navbar.ejs') %>
         <% for(let user of users){ if(user.id % 2==0){ %>
             <h1>
                 <%=user.name%>
